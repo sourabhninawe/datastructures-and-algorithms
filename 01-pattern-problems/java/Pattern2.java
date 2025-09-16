@@ -13,7 +13,7 @@ class Pattern2{
     }
     public static void main(String[] args) {
         while(true){
-            System.out.println("Enter the number of lines to print pattern 1 in integer and -1 to exit");
+            System.out.println("Enter the number of lines to print pattern 2 in integer and -1 to exit");
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
             if(n<=0)
