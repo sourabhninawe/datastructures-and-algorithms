@@ -17,7 +17,7 @@ class Pattern2:
 if __name__ == "__main__":
     while True:
         try:
-            n = int(input("Enter the number of lines to print pattern 1 (integer, 0 or negative to exit): "))
+            n = int(input("Enter the number of lines to print pattern 2 (integer, 0 or negative to exit): "))
         except ValueError:
             print("Please enter a valid integer.")
             continue
