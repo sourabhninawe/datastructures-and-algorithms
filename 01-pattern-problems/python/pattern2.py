@@ -1,19 +1,19 @@
 
 # Author: Sourabh Ninawe
-class Pattern1:
-    def print_pattern1_method1(self, n):
-        print("Pattern1:Method1")
+class Pattern2:
+    def print_pattern2_method1(self, n):
+        print("Pattern2:Method1")
         for i in range(n):
-            for j in range(n):
+            for j in range(i+1):
                 print('*', end='')
             print()
-    
+
     #shorter implementation
-    def print_pattern1_method2(self, n):
-        print("Pattern1:Method2")
-        for i in range(n):
-            print('*' * n)
-    
+    def print_pattern2_method2(self, n):
+        print("Pattern2:Method2")
+        for i in range(1, n+1):
+            print('*' * i)
+
 if __name__ == "__main__":
     while True:
         try:
@@ -24,6 +24,6 @@ if __name__ == "__main__":
         if n <= 0:
             break
         else:
-            p1 = Pattern1()
-            p1.print_pattern1_method1(n)
-            p1.print_pattern1_method2(n)
+            p2 = Pattern2()
+            p2.print_pattern2_method1(n)
+            p2.print_pattern2_method2(n)
