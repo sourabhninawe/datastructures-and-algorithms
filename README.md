@@ -8,7 +8,6 @@
 - [Features](#features)
 - [Directory Structure](#directory-structure)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Introduction
 This repository contains a collection of data structures and algorithm problems with solutions available in Java and Python.
