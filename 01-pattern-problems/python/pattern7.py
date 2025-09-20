@@ -26,6 +26,6 @@ if __name__ == "__main__":
         if n <= 0:
             break
         else:
-            p3 = pattern7()
-            p3.print_pattern7_method1(n)
-            p3.print_pattern7_method2(n)
+            p7 = pattern7()
+            p7.print_pattern7_method1(n)
+            p7.print_pattern7_method2(n)

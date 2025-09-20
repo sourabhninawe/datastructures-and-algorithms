@@ -1,0 +1,31 @@
+
+# Author: Sourabh Ninawe
+class pattern8:
+    def print_pattern8_method1(self, n):
+        print("pattern8:Method1")
+        for i in range(1, n+1):
+            for j in range(1, i):
+                print(" ", end='')
+            for k in range(i,n+1):
+                print("*", end='')
+            print()
+
+    #shorter implementation
+    def print_pattern8_method2(self, n):
+        print("pattern8:Method2")
+        for i in range(1, n+1):
+            print(' ' * (i-1) + '*' * (n-i+1))
+
+if __name__ == "__main__":
+    while True:
+        try:
+            n = int(input("Enter the number of lines to print pattern 8 (integer, 0 or negative to exit): "))
+        except ValueError:
+            print("Please enter a valid integer.")
+            continue
+        if n <= 0:
+            break
+        else:
+            p8 = pattern8()
+            p8.print_pattern8_method1(n)
+            p8.print_pattern8_method2(n)
