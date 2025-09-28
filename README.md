@@ -19,8 +19,15 @@ This repository contains a collection of data structures and algorithm problems 
 
 ## Directory Structure
 - `01-pattern-problems/`: Contains pattern-related problems and their solutions
-  - `java/`: Java solutions for pattern problems
-  - `python/`: Python solutions for pattern problems
+  - `java/`: Java solutions for pattern problems (10 patterns)
+  - `python/`: Python solutions for pattern problems (10 patterns)
+- `02-basic-maths/`: Basic mathematics problems
+  - `01-counting-digits/`: Digit counting and related problems
+    - `java/`: Java solutions for counting digits problems (7 problems)
+    - `python/`: Python solutions for counting digits problems (7 problems)
+- `03-sorting/`: Sorting algorithms
+  - `java/`: Java implementations of sorting algorithms (Bubble Sort, Quick Sort, Selection Sort)
+  - `python/`: Python implementations of sorting algorithms (Bubble Sort, Quick Sort, Selection Sort)
 
 ## Usage
 To use this repository, simply navigate to the directory of interest and explore the solutions.
